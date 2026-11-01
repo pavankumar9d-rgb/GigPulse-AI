@@ -30,17 +30,19 @@ import {
 export default function DashboardPage() {
   const [currentTab, setCurrentTab] = useState<NavTab>("overview");
   const [workerRef, setWorkerRef] = useState<string>("worker_w01");
-  const [workers, setWorkers] = useState<Array<{ worker_ref: string; display_name: string }>>([]);
+  const [workers, setWorkers] = useState<Array<{ worker_ref: string; display_name: string }>>([
+    { worker_ref: "worker_w01", display_name: "Pavan Kumar (Rider W01)" },
+  ]);
 
-  const [summary, setSummary] = useState<any | null>(null);
-  const [recommendations, setRecommendations] = useState<any | null>(null);
-  const [deliveries, setDeliveries] = useState<any[]>([]);
-  const [expenses, setExpenses] = useState<any[]>([]);
-  const [earningsHistory, setEarningsHistory] = useState<any[]>([]);
-  const [weeklySummary, setWeeklySummary] = useState<any | null>(null);
+  const [summary, setSummary] = useState<any>(DEMO_SUMMARY);
+  const [recommendations, setRecommendations] = useState<any>(DEMO_RECOMMENDATIONS);
+  const [deliveries, setDeliveries] = useState<any[]>(DEMO_DELIVERIES);
+  const [expenses, setExpenses] = useState<any[]>(DEMO_EXPENSES);
+  const [earningsHistory, setEarningsHistory] = useState<any[]>(DEMO_EARNINGS_HISTORY);
+  const [weeklySummary, setWeeklySummary] = useState<any>(DEMO_WEEKLY_SUMMARY);
   const [deviceLocation, setDeviceLocation] = useState<DeviceLocation | null>(null);
 
-  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
   const [isOffline, setIsOffline] = useState<boolean>(false);
   const [backendError, setBackendError] = useState<string | null>(null);
 

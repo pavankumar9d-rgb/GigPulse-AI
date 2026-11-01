@@ -22,6 +22,7 @@ import { LiveTelemetryBar } from "./LiveTelemetryBar";
 import { DataBadge } from "./DataBadge";
 import { AnimatedNumber } from "./AnimatedCounter";
 import { DeviceLocation } from "../hooks/useGeolocation";
+import { DEMO_SUMMARY } from "../lib/demoData";
 
 interface OverviewProps {
   summary: any;
@@ -102,7 +103,7 @@ export const OverviewSection: React.FC<OverviewProps> = ({
     }));
   }, [weeklySummary, deliveries]);
 
-  if (isLoading || !summary) {
+  if (isLoading && !summary) {
     return (
       <div className="p-6 md:p-8 space-y-6 animate-pulse">
         <div className="h-6 bg-surface-2 rounded-lg w-48" />
@@ -115,8 +116,12 @@ export const OverviewSection: React.FC<OverviewProps> = ({
     );
   }
 
-  const { analytics } = summary;
-  const { earnings, time, rates, platform_gross_shares, counts } = analytics;
+  const analytics = summary?.analytics || DEMO_SUMMARY.analytics;
+  const earnings = analytics?.earnings || DEMO_SUMMARY.analytics.earnings;
+  const time = analytics?.time || DEMO_SUMMARY.analytics.time;
+  const rates = analytics?.rates || DEMO_SUMMARY.analytics.rates;
+  const platform_gross_shares = analytics?.platform_gross_shares || DEMO_SUMMARY.analytics.platform_gross_shares;
+  const counts = analytics?.counts || DEMO_SUMMARY.analytics.counts;
   const topCandidate = recommendations?.top_candidate;
 
   // Net earnings & rate calculations for animated counters

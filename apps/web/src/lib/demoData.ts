@@ -179,3 +179,4 @@ export const DEMO_EARNINGS_HISTORY = [
   { session_id: "s6", platform_code: "flash_drop", gross_paise: 115000, net_paise: 95000, started_at: "2026-10-30" },
   { session_id: "s7", platform_code: "flash_drop", gross_paise: 78000, net_paise: 63000, started_at: "2026-10-31" },
 ];
+

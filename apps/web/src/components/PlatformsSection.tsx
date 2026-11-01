@@ -2,6 +2,7 @@
 
 import React from "react";
 import { BarChart3, CheckCircle, IndianRupee, PieChart, TrendingUp, Zap } from "lucide-react";
+import { DEMO_SUMMARY } from "../lib/demoData";
 
 interface PlatformsProps {
   summary: any;
@@ -9,8 +10,8 @@ interface PlatformsProps {
 }
 
 export const PlatformsSection: React.FC<PlatformsProps> = ({ summary, deliveries }) => {
-  const analytics = summary?.analytics;
-  const platformShares = analytics?.platform_gross_shares || {};
+  const analytics = summary?.analytics || DEMO_SUMMARY.analytics;
+  const platformShares = analytics?.platform_gross_shares || DEMO_SUMMARY.analytics.platform_gross_shares;
 
   // Compute platform-wise statistics
   const platformStats: Record<

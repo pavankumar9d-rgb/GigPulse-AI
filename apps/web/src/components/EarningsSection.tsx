@@ -11,6 +11,7 @@ import {
   TrendingUp,
 } from "lucide-react";
 import { AnimatedNumber } from "./AnimatedCounter";
+import { DEMO_SUMMARY } from "../lib/demoData";
 
 interface EarningsSectionProps {
   summary: any;
@@ -28,8 +29,8 @@ export const EarningsSection: React.FC<EarningsSectionProps> = ({
   const [viewMode, setViewMode] = useState<"net" | "gross">("net");
   const [platformFilter, setPlatformFilter] = useState<string>("all");
 
-  const analytics = summary?.analytics;
-  const earnings = analytics?.earnings;
+  const analytics = summary?.analytics || DEMO_SUMMARY.analytics;
+  const earnings = analytics?.earnings || DEMO_SUMMARY.analytics.earnings;
 
   // Filter deliveries
   const filteredDeliveries = deliveries.filter((d) =>
