@@ -43,6 +43,15 @@ from gigpulse_core.validator import (
     ValidationReport,
     validate_csv_content,
 )
+from gigpulse_core.db import (
+    get_engine,
+    get_session_factory,
+    init_db,
+    import_csv_content,
+    import_csv_file,
+    seed_synthetic_fixtures,
+    get_worker_analytics_summary,
+)
 
 __all__ = [
     "DeliveryStatus",
@@ -71,5 +80,12 @@ __all__ = [
     "ValidationReport",
     "validate_csv_content",
     "SyntheticDataGenerator",
+    "get_engine",
+    "get_session_factory",
+    "init_db",
+    "import_csv_content",
+    "import_csv_file",
+    "seed_synthetic_fixtures",
+    "get_worker_analytics_summary",
 ]
 

@@ -1,0 +1,41 @@
+{
+  "model_version": "v1.0.0",
+  "target_type": "observed_deliveries",
+  "target_quality": "synthetic",
+  "split_info": {
+    "total_rows": 10080,
+    "train_rows": 7056,
+    "test_rows": 1512,
+    "split_type": "chronological_70_15_15",
+    "train_start": "2026-09-01 00:00:00+00:00",
+    "test_end": "2026-09-14 23:30:00+00:00"
+  },
+  "models_comparison": {
+    "baseline_last_bucket_naive": {
+      "mae": 9.69,
+      "rmse": 16.41,
+      "wape": 0.3788
+    },
+    "baseline_zone_median": {
+      "mae": 15.57,
+      "rmse": 24.46,
+      "wape": 0.6089
+    },
+    "baseline_seasonal_naive": {
+      "mae": 6.54,
+      "rmse": 11.0,
+      "wape": 0.2556
+    },
+    "gradient_boosted_regressor": {
+      "mae": 5.83,
+      "rmse": 9.58,
+      "wape": 0.228
+    }
+  },
+  "uncertainty_evaluation": {
+    "nominal_coverage_pct": 80.0,
+    "empirical_coverage_pct": 76.32
+  },
+  "selected_model": "gradient_boosted_regressor",
+  "synthetic_mode": true
+}

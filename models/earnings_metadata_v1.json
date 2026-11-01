@@ -1,0 +1,65 @@
+{
+  "model_version": "v1.0.0",
+  "target": "net_earnings_paise_per_online_hour",
+  "unit": "INR/hour",
+  "split_info": {
+    "total_rows": 338,
+    "train_rows": 236,
+    "val_rows": 51,
+    "test_rows": 51,
+    "split_type": "chronological_70_15_15",
+    "train_start": "2026-09-01 11:01:00+00:00",
+    "test_end": "2026-10-26 18:57:00+00:00"
+  },
+  "models_comparison": {
+    "baseline_global_median": {
+      "mae_paise": 4480.06,
+      "rmse_paise": 5214.87,
+      "mae_inr": 44.8,
+      "rmse_inr": 52.15,
+      "wape": 0.4135,
+      "r2": -0.0005
+    },
+    "baseline_platform_median": {
+      "mae_paise": 4428.76,
+      "rmse_paise": 5166.82,
+      "mae_inr": 44.29,
+      "rmse_inr": 51.67,
+      "wape": 0.4088,
+      "r2": 0.0178
+    },
+    "baseline_platform_dow_hour_median": {
+      "mae_paise": 3285.75,
+      "rmse_paise": 4028.73,
+      "mae_inr": 32.86,
+      "rmse_inr": 40.29,
+      "wape": 0.3033,
+      "r2": 0.4028
+    },
+    "linear_ridge_regression": {
+      "mae_paise": 2894.39,
+      "rmse_paise": 3591.56,
+      "mae_inr": 28.94,
+      "rmse_inr": 35.92,
+      "wape": 0.2672,
+      "r2": 0.5254
+    },
+    "gradient_boosted_trees_q50": {
+      "mae_paise": 2953.4,
+      "rmse_paise": 3785.6,
+      "mae_inr": 29.53,
+      "rmse_inr": 37.86,
+      "wape": 0.2726,
+      "r2": 0.4727
+    }
+  },
+  "uncertainty_evaluation": {
+    "nominal_coverage_pct": 80.0,
+    "empirical_coverage_pct": 64.71,
+    "pinball_loss_q10": 7.48,
+    "pinball_loss_q50": 14.77,
+    "pinball_loss_q90": 5.0
+  },
+  "selected_model": "gradient_boosted_trees_q50",
+  "synthetic_mode": true
+}

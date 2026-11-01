@@ -1,0 +1,19 @@
+{
+  "name": "GigPulse AI — Academic Operations Cockpit",
+  "short_name": "GigPulse AI",
+  "description": "AI-Driven Spatio-Temporal Earnings Prediction, Demand Forecasting & Optimization for Multi-Platform Delivery Workers",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#080907",
+  "theme_color": "#080907",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
+

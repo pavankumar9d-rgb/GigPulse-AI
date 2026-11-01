@@ -60,3 +60,9 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Local databases & ML models
+*.db
+*.sqlite
+*.sqlite3
+models/*.joblib
