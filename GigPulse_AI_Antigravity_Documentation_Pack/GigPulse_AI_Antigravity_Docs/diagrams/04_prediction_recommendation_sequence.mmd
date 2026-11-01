@@ -1,0 +1,19 @@
+sequenceDiagram
+  actor Worker
+  participant UI as GigPulse UI
+  participant API as FastAPI
+  participant Data as Data / Feature Store
+  participant Model as Model Registry + Predictors
+  participant Rank as Recommendation Engine
+  Worker->>UI: Select time window, zones and preferences
+  UI->>API: POST /recommendations/preview
+  API->>API: Validate auth, ownership, limits and constraints
+  API->>Data: Fetch permitted history and point-in-time features
+  Data-->>API: Features + source quality + coverage
+  API->>Model: Predict earnings and selected demand target
+  Model-->>API: Estimates, intervals, versions and limitations
+  API->>Rank: Score eligible candidates under preferences
+  Rank-->>API: Ranked options + component scores + exclusions
+  API-->>UI: Recommendations with evidence and caveats
+  UI-->>Worker: Compare / save / ignore options
+  Note over Worker,Rank: No automatic platform action or order acceptance occurs

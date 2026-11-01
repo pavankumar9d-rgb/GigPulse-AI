@@ -1,0 +1,23 @@
+flowchart LR
+  subgraph Actors[Actors]
+    W[Gig delivery partner]
+    R[Researcher / evaluator]
+    A[Administrator, if hosted]
+  end
+  subgraph Product[GigPulse AI]
+    UI[Web application]
+    API[Application API]
+    ML[Forecasting and recommendation modules]
+    DB[(Local SQLite / PostgreSQL)]
+  end
+  EXT[Optional licensed aggregate data providers]
+  FILE[Worker-authorized CSV / manual records]
+  W --> UI
+  R --> UI
+  A --> UI
+  UI <--> API
+  API <--> DB
+  API --> ML
+  FILE --> UI
+  EXT -. optional, reviewed and cached .-> API
+  ML --> API

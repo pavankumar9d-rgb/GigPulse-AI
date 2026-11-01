@@ -1,0 +1,18 @@
+flowchart TD
+  In[Manual entry / worker-authorized CSV / licensed aggregate data]
+  Validate[Parse, validate, deduplicate, provenance]
+  Quality[Coverage, missingness, target type and source quality audit]
+  Store[(Normalized research dataset)]
+  Split[Chronological train / validation / test windows]
+  Build[Point-in-time feature engineering]
+  Base[Naive and statistical baselines]
+  Model[Candidate ML models]
+  Eval[Rolling-origin evaluation, metrics, calibration, segment errors]
+  Registry[Versioned model registry and experiment manifest]
+  Serve[Forecast API]
+  UI[Dashboard / Demand Map / Opportunity Planner]
+  In --> Validate --> Quality --> Store --> Split --> Build
+  Build --> Base --> Eval
+  Build --> Model --> Eval
+  Eval --> Registry --> Serve --> UI
+  Quality -. reject or narrow target .-> Validate

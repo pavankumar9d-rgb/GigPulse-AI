@@ -1,0 +1,178 @@
+{
+  "project": "GigPulse AI",
+  "official_title": "AI-Driven Machine Learning for Spatio-Temporal Earnings Prediction, Demand Forecasting & Intelligent Optimization of Multi-Platform Gig Delivery Partners.",
+  "created_date": "2026-11-01",
+  "file_count_before_manifest": 35,
+  "files": [
+    {
+      "path": "MASTER_PROMPT.md",
+      "bytes": 4742,
+      "sha256": "b15e700e41bb3bcc2c4ce1b3056e0b6d31752558c5579c3e4f6016f188ca83f5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5142,
+      "sha256": "e149674b13e9307c37c477288a2e991b8285a63a0a3583fba1a2f03367b1220f"
+    },
+    {
+      "path": "antigravity/AGENTS.md",
+      "bytes": 7400,
+      "sha256": "750b08be79e315936d56717d5e74bb593386f0a30907deb7cde4cf3c36795a2c"
+    },
+    {
+      "path": "antigravity/ANTIGRAVITY_MASTER_PROMPT.md",
+      "bytes": 7622,
+      "sha256": "25d291f8572ae78b8cbf188800145fff3a53f17846f13fc777150238d60131bb"
+    },
+    {
+      "path": "antigravity/SKILL_ROUTING.md",
+      "bytes": 4941,
+      "sha256": "4ef80b759197a159bec10785c407a10ca063a74c6f4d0367ab0755eeb38c1ca7"
+    },
+    {
+      "path": "antigravity/WORKFLOW_AND_DEFINITION_OF_DONE.md",
+      "bytes": 2448,
+      "sha256": "1eb40b52281ab387ed21324f6c8954fa11ee8ea828d6fea46907bb54c9a42c87"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 477,
+      "sha256": "2655cc9e6fce913b3e0b24e609eb67bb42dde5bca8f94d1845b56a31320a6bdf"
+    },
+    {
+      "path": "data/SYNTHETIC_DATA_SPEC.md",
+      "bytes": 1855,
+      "sha256": "bdc358ed6a69bcbbd4ef211cca5df03465be138d96bd32d4213cafa4a3d6318e"
+    },
+    {
+      "path": "data/templates/deliveries_template.csv",
+      "bytes": 195,
+      "sha256": "d3bae2860e97c0620c01daa8580522198bdea23ead10d0b03aa3848ace5bfaed"
+    },
+    {
+      "path": "data/templates/expenses_template.csv",
+      "bytes": 75,
+      "sha256": "ab42a93a15ce7068b1d01602b233445ae3485e6ecd8082332a14fa5b64bd2357"
+    },
+    {
+      "path": "data/templates/work_sessions_template.csv",
+      "bytes": 73,
+      "sha256": "11c4ac3ad4089979157d375d5c4ecb36b5ecc2e3a7798de834ab03a423a04fd7"
+    },
+    {
+      "path": "data/templates/zone_demand_template.csv",
+      "bytes": 172,
+      "sha256": "d6fa33061dfdcccf97e8793c3f38fa9bca21a865c72e48d9c9391d127bc31f71"
+    },
+    {
+      "path": "diagrams/01_system_context.mmd",
+      "bytes": 550,
+      "sha256": "2cf716cd9ee7ecf49cb9177e7c6c1263f52918337f77b23c88ae537a325dbb94"
+    },
+    {
+      "path": "diagrams/02_container_architecture.mmd",
+      "bytes": 1151,
+      "sha256": "b0dfed2d99617f273e8516a6f39fd43d477873772865137b897877c1fc783412"
+    },
+    {
+      "path": "diagrams/03_ml_data_pipeline.mmd",
+      "bytes": 820,
+      "sha256": "85efbd2318c02cacb1831e05a697d4a3a0a982a2a6813caba1acf41dc6762916"
+    },
+    {
+      "path": "diagrams/04_prediction_recommendation_sequence.mmd",
+      "bytes": 934,
+      "sha256": "ca685d4a682c99f6a2cfe487952e1e7d7fe95c67a0bd6ba138c7195dd4e48a0d"
+    },
+    {
+      "path": "diagrams/05_entity_relationships.mmd",
+      "bytes": 2580,
+      "sha256": "8e3a96878e8fd616bcdc18909b98d3681cf9708d114a579606e57f20ca4fa7a0"
+    },
+    {
+      "path": "docs/00_PROJECT_CHARTER.md",
+      "bytes": 7182,
+      "sha256": "bd815d5288bdd3e56444427762f30f096371f24224e75f61d6bbebfa65c1a276"
+    },
+    {
+      "path": "docs/01_PRD.md",
+      "bytes": 10197,
+      "sha256": "cb70d64df3ee8e93fa7cd3ba28ddb320bad1ad255caaef7d6bcb9204eaeee067"
+    },
+    {
+      "path": "docs/02_RESEARCH_METHODOLOGY.md",
+      "bytes": 9233,
+      "sha256": "7b0d48a30933ac68ad6f198ee7e565f810b6f45f36a8770a8e18edd8723651fb"
+    },
+    {
+      "path": "docs/03_SYSTEM_ARCHITECTURE.md",
+      "bytes": 8489,
+      "sha256": "792f98d6fca585901b8d40d961f8c9f75c6b17a527f91caeef266879f968dc0b"
+    },
+    {
+      "path": "docs/04_ML_DESIGN.md",
+      "bytes": 9915,
+      "sha256": "40e2426cd3b1b0b403a00c32ccc5bc83721c43e17575b790827c5804ba69108d"
+    },
+    {
+      "path": "docs/05_DATA_DICTIONARY_SCHEMA.md",
+      "bytes": 11321,
+      "sha256": "a3aef8123ecdcd5ff208e0b3e3f61ab018b90ca57b829ac6e218bad859237fc2"
+    },
+    {
+      "path": "docs/06_API_CONTRACT.md",
+      "bytes": 6285,
+      "sha256": "dce412b5048ea99f9269b0444dc21e1a2779acecdeed0082f96153bd4d3d441f"
+    },
+    {
+      "path": "docs/07_UX_UI_DESIGN_SYSTEM.md",
+      "bytes": 6816,
+      "sha256": "aefc90c9f9109f31f8b7e0ed0fa9821446c7c17ea4bb6d2d2615fdf43c0db8bd"
+    },
+    {
+      "path": "docs/08_SECURITY_PRIVACY_GOVERNANCE.md",
+      "bytes": 5679,
+      "sha256": "aa00630c0006934c6b33620ff6867fbd154f5788414771edd18b2a042bca7665"
+    },
+    {
+      "path": "docs/09_TESTING_EVALUATION.md",
+      "bytes": 6056,
+      "sha256": "33cab207b7d15c3f49c484a9595b24447e214e50c4f568c3fb3331039b53219e"
+    },
+    {
+      "path": "docs/10_IMPLEMENTATION_ROADMAP.md",
+      "bytes": 6788,
+      "sha256": "4ed62ccd2746c4dfff4fbaba47dac7fd9264a9c3a6b6a32239f2f87cc308f2b5"
+    },
+    {
+      "path": "docs/11_RISKS_ASSUMPTIONS_DECISIONS.md",
+      "bytes": 6747,
+      "sha256": "bb3efc04e8626c38098d13728d535825fbc7ca743d456fa5ac8f78390585299c"
+    },
+    {
+      "path": "docs/12_ACADEMIC_DELIVERABLES.md",
+      "bytes": 5151,
+      "sha256": "cce28324efb2217fd84afab2b39ee7ccc6111889a4989b680cb75186a86cd2e2"
+    },
+    {
+      "path": "docs/13_RESEARCH_REFERENCES.md",
+      "bytes": 4467,
+      "sha256": "f4194fcb3825b6a18e5e8329ef0a3e5cf0502c8f38ae830e66673303f5e81022"
+    },
+    {
+      "path": "docs/14_DIAGRAM_CATALOG.md",
+      "bytes": 1096,
+      "sha256": "d61e717dc0c7e02152efce919851eb55cf1aaa89b9c1e8024211bc9ce10cef1f"
+    },
+    {
+      "path": "source-references/INSTALLED_SKILLS.md",
+      "bytes": 42687,
+      "sha256": "12f9ae014792586e8e79783412fdded5b479a2fdc91fbc96e89eff5d56b8fe18"
+    },
+    {
+      "path": "source-references/SKILL_TRIGGERS.txt",
+      "bytes": 32071,
+      "sha256": "4bdba652ef7cd38872d9685e2148868aacd143831d7d78eba40c62ff6753184d"
+    }
+  ]
+}

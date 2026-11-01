@@ -1,0 +1,37 @@
+{
+  "project": "GigPulse AI",
+  "generator_version": "1.0.0",
+  "seed": 42,
+  "synthetic": true,
+  "generated_at": "2026-11-01T12:45:10.025612+00:00",
+  "time_range": {
+    "start": "2026-09-01T00:00:00+00:00",
+    "end": "2026-10-27T00:00:00+00:00",
+    "weeks": 8
+  },
+  "counts": {
+    "work_sessions": 338,
+    "deliveries": 1472,
+    "expenses": 171,
+    "zone_demand_observations": 10080
+  },
+  "platforms": [
+    "flash_drop",
+    "swift_bite",
+    "hyper_courier"
+  ],
+  "zones_count": 15,
+  "workers": [
+    "worker_w01",
+    "worker_w02",
+    "worker_w03"
+  ],
+  "assumptions": [
+    "All rows strictly labelled with source_type='synthetic' and target_quality='synthetic'",
+    "Lunch peak (12:00-14:30) and dinner peak (19:00-22:30) simulated",
+    "Weekend volume uplift (approx 25-35%) applied",
+    "Multi-app overlapping shifts simulated to exercise interval union logic",
+    "Requested orders and observed deliveries generated separately to demonstrate target distinction",
+    "No proprietary platform formulas or real personal identifiers used"
+  ]
+}

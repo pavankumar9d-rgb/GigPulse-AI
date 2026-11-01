@@ -1,0 +1,524 @@
+﻿====================================================================
+  SKILL TRIGGER WORDS — Quick Reference
+  Every word/phrase here auto-activates the matching skill.
+  Source: INSTALLED_SKILLS.md (22 packs / 1,185+ skills / 7 IDE brains)
+====================================================================
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: openmontage
+PATH:  skills/openmontage/SKILL.md
+──────────────────────────────────────────────────────────────────
+  make a video, create a video, produce a video, render a video
+  generate a video, make a clip, make a reel, make a short
+  make a trailer, make an explainer, make a product video
+  make a promo, make a demo video, make a marketing video
+  make an ad, animate this, video pipeline
+  use kling, use veo, use sora, use runway, use luma, use hailuo
+  ai video, video generation, generate footage, make footage
+  i want a video, turn this into a video
+  make something like this video, reference video
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: archify
+PATH:  skills/archify/SKILL.md
+──────────────────────────────────────────────────────────────────
+  diagram, create a diagram, make a diagram, draw a diagram
+  visualize, architecture diagram, system diagram, flow diagram
+  flowchart, sequence diagram, data flow, data pipeline diagram
+  state machine, state diagram, lifecycle diagram, network topology
+  infrastructure diagram, cloud diagram, security diagram
+  convert mermaid, beautify mermaid, draw this system
+  show the architecture, map the flow, show me the flow
+  make it interactive, html diagram, interactive diagram
+  show infrastructure
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: react-bits
+PATH:  skills/react-bits/SKILL.md
+──────────────────────────────────────────────────────────────────
+  react component, react ui, react animation, animated component
+  framer motion, micro animation, hover effect, click effect
+  ui component, button component, card component, modal component
+  dropdown, tab component, accordion, spinner, loading animation
+  transition effect, glassmorphism, neumorphism, animated button
+  animated card, react library, component library, ui library
+  build a component, make this interactive, add animation to this
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: threeui
+PATH:  skills/threeui/SKILL.md
+──────────────────────────────────────────────────────────────────
+  three.js, threejs, three js, webgl, web gl
+  glsl, shader, fragment shader, vertex shader
+  3d scene, 3d component, 3d animation, 3d effect
+  3d scrolling, smooth scroll 3d, buttery smooth scroll
+  particle system, particles, geometry, mesh, scene setup
+  camera rig, scroll rig, depth effect, horizon effect
+  at the horizon, threedpaper, 3d paper, canvas animation
+  three fiber, react three fiber, r3f, drei, postprocessing
+  bloom effect, depth of field, raymarching, ray marching
+  point cloud, environment map, hdri, pbr
+  immersive scroll, parallax 3d, 3d parallax
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: brag / brag-slim
+PATH:  skills/brag/SKILL.md
+──────────────────────────────────────────────────────────────────
+  /brag, brag about this, brag about my project
+  make a launch video, create a launch video
+  make a product launch video, make a showcase video
+  turn this into a launch video, show off this project
+  make a viral video about this, make a demo reel
+  show what i built, post worthy video
+  twitter video, linkedin video, x video
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: ui-ux-pro-max
+PATH:  skills/ui-ux-pro-max/SKILL.md
+──────────────────────────────────────────────────────────────────
+  ui design, ux design, web design, redesign this
+  make it look better, improve the design, make it more beautiful
+  make it premium, review my ui, audit the design, check aesthetics
+  design system, color palette, typography, spacing, layout
+  make it dark mode, glassmorphism, brutalist design
+  minimalist design, modern design, landing page design
+  hero section, make it wow, make it stunning
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: davinci-resolve-mcp
+PATH:  skills/davinci-resolve-mcp/SKILL.md
+──────────────────────────────────────────────────────────────────
+  davinci resolve, davinci, resolve
+  color grade, color grading, color correction, lut
+  fusion, fairlight, timeline, edit in resolve, cut in resolve
+  add to timeline, media pool, render in resolve, export from resolve
+  node graph, fusion nodes, compound clip
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: places-to-post-startup
+PATH:  skills/places-to-post-startup/SKILL.md
+──────────────────────────────────────────────────────────────────
+  where to post my startup, where should i post this
+  where to launch, launch checklist, how to get traffic
+  startup directories, submit my startup, submit my app, submit my saas
+  product hunt, indie hackers, show hn, hacker news launch
+  where to promote, get my first users, startup marketing
+  distribution channels, launch strategy, where to post my side project
+  reddit for startups, startup subreddits
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: slides
+PATH:  skills/slides/SKILL.md
+──────────────────────────────────────────────────────────────────
+  make a presentation, make slides, create a deck, slide deck
+  pitch deck, investor deck, presentation, make a slideshow
+  powerpoint, google slides style, keynote style
+  wowerpoint this, make a deck about, turn this into slides
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: systematic-debugging
+PATH:  skills/systematic-debugging/SKILL.md
+──────────────────────────────────────────────────────────────────
+  this is broken, not working, bug, fix this bug
+  something is wrong, error, unexpected behavior
+  test failing, tests fail, debug this, trace this
+  why is this not working, it's crashing, undefined is not a function
+  null pointer, stack overflow, infinite loop, memory leak
+  race condition, it worked before
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: code-review-and-quality
+PATH:  skills/code-review-and-quality/SKILL.md
+──────────────────────────────────────────────────────────────────
+  review my code, code review, review this, check my code
+  is this good code, is this clean, audit this code
+  can you improve this, refactor this, before i merge
+  ready to merge, pr review, pull request review
+  check quality, check for bugs, security review, performance review
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: gsd-execute-phase
+PATH:  skills/gsd-execute-phase/SKILL.md
+──────────────────────────────────────────────────────────────────
+  build this feature, implement this, execute the plan
+  multi step, complex feature, full implementation, build from scratch
+  new feature, implement a system, build an app, create a full stack
+  build the backend, build the frontend, phase execution, do it all
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: rtk  (Rust Token Killer)
+PATH:  skills/rtk/SKILL.md
+──────────────────────────────────────────────────────────────────
+  save tokens, token savings, compress output, use rtk
+  run via rtk, rtk this command
+  (auto-suggested on: cargo build/test, npm/pnpm install/run,
+   jest, vitest, playwright, next dev/build, prisma migrate,
+   git log, git diff)
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: hyperframes
+PATH:  skills/hyperframes/SKILL.md
+──────────────────────────────────────────────────────────────────
+  hyperframes, frame sequence, animation framework, compose animation
+  keyframe animation, scene composition, motion sequence
+  storyboard this, animation pipeline, compose a scene
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: recordly
+PATH:  skills/recordly/SKILL.md
+──────────────────────────────────────────────────────────────────
+  record this, screen record, capture this, record a demo
+  capture a demo, record my screen, screencast, make a recording
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: claude-mem
+PATH:  skills/claude-mem/SKILL.md
+──────────────────────────────────────────────────────────────────
+  remember this, save this for later, add to memory
+  what did we do last time, search memory, recall this
+  did we already do this, what was that thing we built
+  cross session memory, persistent memory, timeline report
+  journey into this project
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: build-your-own-x
+PATH:  skills/build-your-own-x/SKILL.md
+──────────────────────────────────────────────────────────────────
+  build my own, build from scratch, how does X work internally
+  implement a compiler, implement a database, implement a web server
+  implement a neural network, implement a game engine, implement a git
+  implement an operating system, build x from scratch
+  deep dive implementation, engineering blueprint, under the hood
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: brainstorming
+PATH:  skills/brainstorming/SKILL.md
+──────────────────────────────────────────────────────────────────
+  brainstorm, let's think about this, what are my options
+  explore ideas, what should i build, ideate
+  what do you think, help me think through
+  before we start, plan this out, what's the best approach
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: web-design-guidelines
+PATH:  skills/web-design-guidelines/SKILL.md
+──────────────────────────────────────────────────────────────────
+  review my website, check accessibility, wcag, aria
+  semantic html, check my site, audit ux, review the interface
+  check best practices, is this accessible, review the layout
+
+
+──────────────────────────────────────────────────────────────────
+ALWAYS-ON (no trigger words needed — active on every single request)
+──────────────────────────────────────────────────────────────────
+  ponytail             (lazy senior dev mode — YAGNI, min code, no fluff)
+  karpathy-guidelines  (think before coding, simplicity, surgical, verify)
+  verification         (evidence before claiming done, run the command)
+  rtk suggestion       (auto-suggested on verbose commands)
+
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: vercel-cli-with-tokens / deploy-to-vercel / vercel-react-best-practices
+PATH:  skills/vercel-cli-with-tokens/SKILL.md
+──────────────────────────────────────────────────────────────────
+  deploy, deploy to vercel, deploy my app, deploy this project
+  vercel deploy, vercel preview, vercel production
+  push this live, make it live, go live, host this
+  create a preview deployment, preview link
+  vercel domain, add domain to vercel
+  add environment variables, env vars vercel
+  vercel token, deploy with token, vercel ci
+  optimize for vercel, vercel edge, vercel serverless
+  vercel react, next.js deploy, nextjs deploy
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: using-superpowers / one-skill-to-rule-them-all
+PATH:  skills/using-superpowers/SKILL.md
+──────────────────────────────────────────────────────────────────
+  what can you do, what skills do you have, show me your skills
+  what are your superpowers, list your capabilities
+  what tools do you have, help me, where do i start
+  i don't know what to ask, show me everything
+  find the right skill, which skill should i use
+  i need help with, what's the best way to
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: impeccable
+PATH:  skills/impeccable/SKILL.md
+──────────────────────────────────────────────────────────────────
+  make this impeccable, make this perfect, top quality
+  production ready, enterprise grade, best possible code
+  make it flawless, zero bugs, rock solid
+  impeccable output, professional grade, polish this
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: claude-mem / mem-search / knowledge-agent
+PATH:  skills/claude-mem/SKILL.md
+──────────────────────────────────────────────────────────────────
+  remember this, save this, add to memory, store this
+  what did we do last time, did we already solve this
+  search my memory, recall this, find in memory
+  cross session, persistent memory, what was that thing
+  build a knowledge base, create a brain, knowledge agent
+  timeline report, journey into this project
+  how did we do X last time, what patterns did we use
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: dispatching-parallel-agents / subagent-driven-development
+PATH:  skills/dispatching-parallel-agents/SKILL.md
+──────────────────────────────────────────────────────────────────
+  run these in parallel, do multiple things at once
+  dispatch agents, spawn subagents, parallel tasks
+  independent tasks, work on these simultaneously
+  multiple agents, fan out, divide and conquer
+  implement with subagents, execute with agents
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: scientific-visualization / scientific-writing / scientific-brainstorming
+PATH:  skills/scientific-visualization/SKILL.md
+ALSO:  166+ specific science skills (astropy, scanpy, rdkit, pymc, qutip, etc.)
+──────────────────────────────────────────────────────────────────
+  scientific visualization, research visualization, plot this data
+  make a publication figure, scientific figure, journal figure
+  write a paper, write a research paper, scientific writing
+  methods section, results section, abstract, manuscript
+  hypothesis, research brainstorm, scientific ideas
+  astropy, scanpy, rdkit, pymc, qutip, simpy, sympy
+  RNA-seq, single cell, genomics, proteomics, metabolomics
+  molecular dynamics, protein structure, docking
+  astronomy, astrophysics, cosmology, telescope data
+  quantum computing, quantum simulation, qubit
+  ecology, statistics, bayesian model
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: cybersecurity (818+ skills)
+PATH:  skills/performing-external-network-penetration-test/SKILL.md
+ALSO:  analyzing-malicious-url-with-urlscan, detecting-aws-*, auditing-*, hunting-*, etc.
+──────────────────────────────────────────────────────────────────
+  security audit, security review, pentest, penetration test
+  vulnerability scan, vulnerability assessment, CVE
+  malware analysis, malware investigation
+  phishing analysis, phishing detection, URL analysis
+  AWS security, Azure security, GCP security, cloud security
+  active directory audit, AD security, bloodhound
+  incident response, threat hunting, threat intelligence
+  forensics, memory forensics, disk forensics
+  SIEM, SOC, detection rules, sigma rules
+  red team, blue team, purple team
+  credential dumping, privilege escalation, lateral movement
+  ransomware, malware, rootkit, backdoor
+  web application security, OWASP, XSS, SQLi, SSRF, XXE
+  zero trust, identity security, RBAC, IAM audit
+
+====================================================================
+TOTAL: 22 skill packs / 1,185+ skills / 7 IDE brains synced
+
+BRAINS:
+  Antigravity  ->  C:\Users\saipa\.gemini\config\skills\
+  Cursor       ->  C:\Users\saipa\.cursor\skills\
+  Claude Code  ->  C:\Users\saipa\.claude\skills\
+  Windsurf     ->  C:\Users\saipa\.codeium\windsurf\skills\
+  Kimi CLI     ->  C:\Users\saipa\.kimi-code\skills\
+  Continue     ->  C:\Users\saipa\.continue\skills\
+  VS Code      ->  C:\Users\saipa\AppData\Roaming\Code\User\skills\
+====================================================================
+
+
+──────────────────────────────────────────────────────────────────
+SKILL: flow-connector (Google Flow image/video generation)
+PATH:  skills/flow-connector/SKILL.md
+MCP:   flow-auto-mcp (registered in all 7 IDE brains)
+──────────────────────────────────────────────────────────────────
+  generate an image with Flow
+  generate a video with Flow
+  use my Google Flow session
+  use my Flow account
+  generate with Veo
+  generate with Veo 3
+  flow-auto generate
+  make an image using Google Flow
+  make a video using Google Flow
+  image generation no API
+  video generation no API
+  generate without API key
+  use my logged in session to generate
+  Flow image, Flow video
+  google flow image, google flow video
+  batch generate images, batch generate videos
+  flow bulk run
+  image to image Flow
+  extend video Flow
+  Flow Connector
+
+──────────────────────────────────────────────────────────────────
+SKILL: img2threejs (image to procedural Three.js)
+PATH:  skills/img2threejs/SKILL.md
+CANONICAL: C:\Users\saipa\.gemini\config\skills\img2threejs\
+──────────────────────────────────────────────────────────────────
+  image to 3d, image to three.js, image to threejs
+  rebuild this as 3d, reconstruct this object
+  make a 3d model from this image
+  make a Three.js model from this photo
+  procedural three.js model
+  procedural 3d model
+  image to procedural model
+  reconstruct this as code
+  3d reconstruction from image
+  animation ready model from image
+  game object from image, prop from image
+  character model from image, character rig from image
+  sculpt spec, object sculpt spec
+  turn this photo into 3d
+  turn this image into a three.js scene
+  build this in three.js from reference
+  3d from reference image
+  code-only 3d model
+
+================================================================================
+SKILL: supabase (Supabase Database, Auth, Storage, Edge Functions, RLS)
+PATH:  skills/supabase/SKILL.md
+CANONICAL: C:\Users\saipa\.gemini\config\skills\supabase\
+================================================================================
+  supabase, supabase db, supabase database
+  supabase auth, supabase login, supabase user
+  supabase storage, supabase bucket, storage upload
+  supabase edge functions, edge function, deno supabase
+  supabase realtime, realtime subscription, postgres changes
+  supabase-js, @supabase/ssr, createClient supabase
+  supabase migration, supabase db push, supabase db diff
+  supabase cli, supabase start, supabase init
+  supabase rls, row level security, auth.uid()
+  supabase pgvector, pgvector search, embeddings supabase
+  supabase mcp, mcp supabase, supabase server
+
+================================================================================
+SKILL: supabase-postgres-best-practices (Postgres Performance, Indexing & Design)
+PATH:  skills/supabase-postgres-best-practices/SKILL.md
+CANONICAL: C:\Users\saipa\.gemini\config\skills\supabase-postgres-best-practices\
+================================================================================
+  postgres best practices, postgresql performance
+  database schema design, postgres indexing, btree index
+  query optimization postgres, explain analyze, slow query
+  connection pooling, pgbouncer, connection exhaustion
+  postgres rls optimization, rls performance
+  pg_cron, pgmq, postgres queues
+  database migrations best practices
+  postgres data modeling, foreign key indexes
+
+================================================================================
+SKILL: safe-sql-execution (Safe SQL Authoring & Injection Prevention)
+PATH:  skills/safe-sql-execution/SKILL.md
+CANONICAL: C:\Users\saipa\.gemini\config\skills\safe-sql-execution\
+================================================================================
+  safe sql, sql injection prevention
+  raw sql execution, parameterized sql query
+  sql query builder security, sql template strings
+
+================================================================================
+SKILL: luxury-motion-web (Luxury Editorial & Pseudo-3D Motion Website Engine)
+PATH:  C:\Users\saipa\.gemini\antigravity-ide\knowledge\luxury-motion-web\artifacts\overview.md
+CANONICAL: c:\Users\saipa\OneDrive\Desktop\pickle\
+================================================================================
+  luxury-web, pickle-web, /luxury-web
+  make a website, create a website, build website like this
+  recreate this website, editorial 3d website
+  cylindrical photo turn, pseudo-3d canvas turn
+  priya foods website style, luxury motion website
+
+================================================================================
+SKILL: reverse-engineer-anything / rea (Binary & Application Reverse Engineering)
+PATH:  skills/reverse-engineer-anything/SKILL.md
+CANONICAL: C:\Users\saipa\.gemini\config\skills\reverse-engineer-anything\
+================================================================================
+  reverse engineer, reverse engineering, rea
+  decompile, decompiler, disassembler, disassembly
+  decompile exe, decompile dll, decompile apk, decompile so
+  unpack asar, electron reverse engineering
+  reverse engineer binary, analyze binary
+  native binary analysis, ghidra rea, radare rea
+  protocol reverse engineering, firmware reverse engineering
+  reconstruct from binary, analyze compiled code
+  rea scan, rea decompile, rea trace, rea mcp
+
+================================================================================
+SKILL: gravitas (Engineering Reliability Runtime & Verification Invariants)
+PATH:  skills/gravitas/SKILL.md
+CANONICAL: C:\Users\saipa\.gemini\config\skills\gravitas\
+================================================================================
+  gravitas, engineering reliability, reliability runtime
+  code like claude, claude level coding, strict verification
+  ground before mutating, evidence before assertion
+  gravitas-highstakes, highstakes coding, highstakes engineering
+  gravitas-python, gravitas-typescript
+  verify with evidence, no false claims, report actual output
+  plan changes first, inspect before edit, rigorous testing
+
+================================================================================
+SKILL: make-2d-video / aitrends-2d-studio (Cinematic 2D Video & Sound Studio)
+PATH:  skills/make-2d-video/SKILL.md
+CANONICAL: C:\Users\saipa\.gemini\config\plugins\aitrends-2d-studio\skills\make-2d-video\
+================================================================================
+  make 2d video, make a 2d video, aitrends video
+  animate script, turn voiceover into video, voiceover to video
+  stick figure video, cinematic stick figures, 2.5d video
+  new-video, create new video project, story breakdown shots
+  render-video, render 2d animation, headless chromium render
+  video-sound, video audio design, sound effects sfx video
+  video-styles, style bible video, rim light video, moody sets
+  what if video, animated explainer from audio, 2d canvas video
+
+================================================================================
+SKILL: aitrends / aitrends-2d-studio (aiTrends 2D Studio Master Command Hub)
+PATH:  skills/aitrends/SKILL.md
+CANONICAL: C:\Users\saipa\.gemini\config\skills\aitrends\
+================================================================================
+  /aitrends, /aitrends-2d-studio, aitrends studio
+  launch aitrends, aitrends pipeline, aitrends 2d studio
+  /new-video, /video-styles, /render-video, /video-sound, /make-2d-video
+  generate 2d stick figure video, 2d animation studio
+
+================================================================================
+SKILL: blender (Blender MCP 3D Director & Rendering Engine)
+PATH:  skills/blender/SKILL.md
+CANONICAL: C:\Users\saipa\.gemini\config\skills\blender\
+================================================================================
+  /blender, blender, blender mcp, blender 3d
+  create 3d model in blender, 3d scene blender, animate in blender
+  blender camera framing, blender lighting, blender render video
+  blender cycles, blender eevee, generate 3d mesh blender
+
+================================================================================
+SKILL: web-access (treg WebAccess - Live Web, Search, Extract & Scrape)
+PATH:  skills/web-access/SKILL.md
+CANONICAL: C:\Users\saipa\.gemini\config\skills\web-access\
+================================================================================
+  web access, web-access, treg, treg web search
+  search the live web, live web search, free web search
+  read url as markdown, crawl website, map website, extract structured data
+  tinyfish web search, zero cost web access, tinyfish fetch

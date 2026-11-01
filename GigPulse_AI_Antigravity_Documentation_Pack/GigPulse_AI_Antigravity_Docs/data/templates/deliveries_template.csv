@@ -1,0 +1,1 @@
+worker_ref,platform_code,session_ref,accepted_at,completed_at,pickup_zone_code,drop_zone_code,payout_paise,incentive_paise,tip_paise,distance_m,duration_seconds,status,target_quality,source_type

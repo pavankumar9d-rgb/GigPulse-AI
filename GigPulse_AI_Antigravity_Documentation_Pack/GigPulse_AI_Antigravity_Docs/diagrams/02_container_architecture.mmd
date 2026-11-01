@@ -1,0 +1,37 @@
+flowchart TB
+  Browser[Next.js + TypeScript UI]
+  subgraph Backend[FastAPI modular monolith]
+    Auth[Auth and ownership boundary]
+    Domain[Domain services: sessions, deliveries, expenses]
+    Imports[CSV validation and commit pipeline]
+    Analytics[Metrics and aggregation]
+    ForecastAPI[Forecast orchestration]
+    Reco[Opportunity ranking]
+  end
+  subgraph ML[Python ML package]
+    Features[Point-in-time feature builder]
+    Earnings[Earnings model and baseline]
+    Demand[Zone/time demand or activity model]
+    Registry[Model registry and experiment metadata]
+  end
+  DB[(SQLite local / PostgreSQL hosted)]
+  Artifacts[(Versioned local model artifacts and dataset manifests)]
+  Sources[Optional cached weather / public aggregate sources]
+  Browser <--> Auth
+  Auth --> Domain
+  Auth --> Imports
+  Auth --> Analytics
+  Auth --> ForecastAPI
+  Auth --> Reco
+  Domain <--> DB
+  Imports --> DB
+  Analytics <--> DB
+  ForecastAPI --> Features
+  Reco --> Features
+  Features <--> DB
+  Features --> Earnings
+  Features --> Demand
+  Earnings <--> Registry
+  Demand <--> Registry
+  Registry <--> Artifacts
+  Sources -. approved features only .-> DB

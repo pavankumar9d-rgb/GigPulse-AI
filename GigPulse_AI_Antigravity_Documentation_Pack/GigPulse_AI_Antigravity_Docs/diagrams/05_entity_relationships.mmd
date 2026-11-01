@@ -1,0 +1,110 @@
+erDiagram
+  WORKER_PROFILES ||--o{ WORK_SESSIONS : declares
+  WORKER_PROFILES ||--o{ DELIVERIES : records
+  WORKER_PROFILES ||--o{ EXPENSES : records
+  PLATFORMS ||--o{ WORK_SESSIONS : used_for
+  PLATFORMS ||--o{ DELIVERIES : fulfils_on
+  WORK_SESSIONS ||--o{ DELIVERIES : may_contain
+  WORK_SESSIONS ||--o{ EXPENSES : may_contain
+  ZONES ||--o{ ZONE_DEMAND_OBSERVATIONS : aggregates
+  ZONES ||--o{ CONTEXT_OBSERVATIONS : contextualizes
+  ZONES ||--o{ DELIVERIES : pickup_or_drop
+  IMPORT_BATCHES ||--o{ DELIVERIES : imported_as
+  IMPORT_BATCHES ||--o{ WORK_SESSIONS : imported_as
+  IMPORT_BATCHES ||--o{ EXPENSES : imported_as
+  MODEL_VERSIONS ||--o{ FORECAST_RUNS : generated_by
+  ZONES ||--o{ FORECAST_RUNS : forecast_for
+  WORKER_PROFILES ||--o{ FORECAST_RUNS : earnings_for
+  WORKER_PROFILES ||--o{ RECOMMENDATION_RUNS : requested
+  WORKER_PROFILES {
+    uuid id PK
+    uuid owner_user_id
+    text display_name
+    uuid home_zone_id FK
+    char preferred_currency
+  }
+  PLATFORMS {
+    uuid id PK
+    text code UK
+    text display_name
+    boolean active
+  }
+  ZONES {
+    uuid id PK
+    text zone_system
+    text zone_code
+    int resolution
+    text display_name
+  }
+  WORK_SESSIONS {
+    uuid id PK
+    uuid worker_id FK
+    uuid platform_id FK
+    timestamptz started_at
+    timestamptz ended_at
+    text source_type
+  }
+  DELIVERIES {
+    uuid id PK
+    uuid worker_id FK
+    uuid platform_id FK
+    uuid session_id FK
+    timestamptz completed_at
+    bigint payout_paise
+    text target_quality
+  }
+  EXPENSES {
+    uuid id PK
+    uuid worker_id FK
+    timestamptz occurred_at
+    bigint amount_paise
+    text category
+  }
+  ZONE_DEMAND_OBSERVATIONS {
+    uuid id PK
+    uuid zone_id FK
+    timestamptz interval_start
+    int orders_requested
+    int orders_completed
+    int deliveries_observed
+    text target_type
+    text target_quality
+  }
+  CONTEXT_OBSERVATIONS {
+    uuid id PK
+    uuid zone_id FK
+    timestamptz observed_at
+    numeric temperature_c
+    numeric precipitation_mm
+    text source_name
+  }
+  IMPORT_BATCHES {
+    uuid id PK
+    text file_hash
+    text status
+    int row_count
+    int accepted_count
+  }
+  MODEL_VERSIONS {
+    uuid id PK
+    text model_name
+    text version
+    text target_definition
+    text status
+  }
+  FORECAST_RUNS {
+    uuid id PK
+    uuid model_version_id FK
+    uuid zone_id FK
+    uuid worker_id FK
+    numeric point_prediction
+    numeric lower_prediction
+    numeric upper_prediction
+    text unit
+  }
+  RECOMMENDATION_RUNS {
+    uuid id PK
+    uuid worker_id FK
+    text scoring_version
+    json candidates_json
+  }
